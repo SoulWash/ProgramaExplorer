@@ -6,62 +6,82 @@
 
 :root {
     --color-font-orange : #FF9900;
-    --color-border: #ECEFF2;
-    --color-parag: #7D7987;
+    --color-border: #E5E5E5;
+    --color-parag: #000;
 }
 
 body {
-    background-color: #fff;
+    background-color: #ECEFF2;
     font-family: 'Open Sans', sans-serif;
+    max-width: 592px;
+    margin: auto;
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
 main {
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) ;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 72px auto;
 }
 
-main img {
-    width: 348px;
+main #img {
+    transition: all .5s;
 }
 
+#img:hover,
+#bolinhas:hover {
+    transform: scale(1.1);
+}
 
-span {
+span{
     color: var(--color-font-orange);
-}
-
-main {
-    margin: 33px;
 }
 
 main h1 {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
-    font-size: 49px;
+    font-size: 2.4rem;
     padding: 72px 0px 32px;
 }
 
-main p {
+main h1 span {
+    font-weight: bold;
+}
+
+p {
     color: var(--color-parag);
-    padding: 0 46px 28px;
-
 }
 
-footer {
+p, footer{
+    font-size: 0.7rem;
+    line-height: 2rem;
+}
+
+#line {
+    width: 568px;
+    height: 0;
     border-top: 1px solid var(--color-border);
-    display: inline-flex;
-    flex-direction:row;
-    justify-content: center;
-    gap: 36px;
+    margin: 0 auto 8px;
 }
+
+footer a + a{
+    margin-left: 28px;
+}
+
 footer a {
-    margin-top: 20px;
-    color: var(--color-font-orange);
+    color: var(--color-parag);
+    text-decoration: none;
+    transition: all .2s;
 }
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--color-font-orange);
+} 
+
 #bolinhas {
-    height: 70px;
-    position: absolute;
+    position: fixed;
     right: 0;
     bottom: 0;
 }
