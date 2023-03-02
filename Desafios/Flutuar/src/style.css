@@ -28,7 +28,7 @@ main h1 {
     font-family: 'Dosis', sans-serif;
     color: #3F3D56;
     margin-bottom: 16px;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 500;
 }
 
@@ -49,7 +49,7 @@ main img {
 }
 
 span {
-    color: #EE24FF;
+    color: var(--color-span);
     font-weight: bold;
 }
 
@@ -64,21 +64,20 @@ strong {
 }
 
 footer {
-    margin: 64px auto 41px;
+    margin: 64px auto 42px;
 }
 
 footer a {
     text-decoration: none;
     color: #3F3D56;
     font-weight: bold;
-
+    font-size: 0.8rem;
     transition: all .2s;
 }
 
 footer a:hover {
-    color: #EE24FF;
+    color: var(--color-span);
 }
-
 
 footer a + a {
     margin-left: 42px;
