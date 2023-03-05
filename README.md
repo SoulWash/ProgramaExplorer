@@ -30,9 +30,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Projetos e disafios propostos pelo programa Explorer da RocketSeat para melhoria da capaciadade de 'webinnar'.
 
+Projetos em aula:
 <a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project01/" target="_blank">Projeto01: Móveis customizados</a>
-<a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Desafios/Flutuar/" target="_blank">Desafio01: Flutuar.com</a>
+<a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project02/" target="_blank">Projeto02: Treine.me</a>
 
+Desafios:
+<a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Desafios/Flutuar/" target="_blank">Desafio01: Flutuar.com</a>
+<a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Desafios/Rocket.sect/" target="_blank">Desafio02: Rocket.sect</a>
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT.
