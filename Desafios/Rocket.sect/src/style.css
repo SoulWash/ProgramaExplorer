@@ -31,6 +31,15 @@ nav {
     align-items: center;
 }
 
+#logo,
+a {
+    transition: all .3s;
+}
+#logo:hover {
+    transform: scale(1.1);
+}
+
+
 ul {
     display: flex;
     gap: 64px;
@@ -42,8 +51,16 @@ ul li {
 
 a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: var(--color-font);
+    opacity: 0.5;
+    cursor: pointer;
 }
+a:hover {
+    color: #00BFA6;
+    opacity: 1;
+    transform: scale(1.1);
+}
+
 
 main {
     display: flex;
@@ -126,7 +143,7 @@ footer {
 @media (max-width: 600px) {
 
     :root {
-        --color-bg:#25435c;
+        --color-bg:linear-gradient(180deg, rgba(0,0,0,1) 66%, rgba(17,6,122,1) 91%);;
     }
     main img {
         width: 300px;
