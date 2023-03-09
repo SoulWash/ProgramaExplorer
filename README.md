@@ -33,10 +33,14 @@ Projetos e disafios propostos pelo programa Explorer da RocketSeat para melhoria
 Projetos em aula:<br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project01/" target="_blank">Projeto01: Móveis customizados</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project02/" target="_blank">Projeto02: Treine.me</a>
+<a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project03/" target="_blank">Projeto02: Formulário de Evento</a>
 
 Desafios:<br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/Flutuar/" target="_blank">Desafio01: Flutuar.com</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/Rocket.sect" target="_blank">Desafio02: Rocket.sect</a>
+<a href="https://soulwash.github.io/ProgramaExplorer/Desafios/Mentoria" target="_blank">Desafio03: Mentoria</a>
+
+
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT.

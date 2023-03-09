@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body,
+h1,
+legend,
+button {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+body {
+    background: #E5E5E5;
+}
+
+body::before{
+    content: '';
+    width: 100%;
+    background-color: #535971;
+    min-height: 436px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+
+}
+
+.page {
+    max-width: 750px;
+    margin: auto;
+}
+
+header {
+    max-width: 471px;
+    margin-top: 140px;
+}
+
+header h1 {
+    font-size: 2.4rem;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+header p {
+    font: normal 400 1rem 'Poppins';
+    line-height: 30px;
+
+    color: #FFFFFF;
+
+    margin: 18px 0 44px;
+}
+
+form {
+    min-height: 300px;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    background: #fff;
+    color: #535971;
+    border-radius: 20px 20px 0 0;
+}
+
+fieldset {
+    border: none;
+}
+
+.fieldset-wrapper, .date{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+fieldset legend.legend-legend {
+    font-size: 1.2rem;
+    line-height: 34px;
+
+    width: 100%;
+    border-bottom: 1px solid #E6E6F0;
+    padding-bottom: 16px;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrapper-name {
+    display: flex;
+    gap: 22px;
+}
+.name {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input-wrapper label, .name label{
+    font: normal 400 0.7rem 'Poppins';
+    line-height: 24px;
+    color: #4E4958;
+
+    margin-bottom: 8px;
+}
+
+.input-wrapper label span {
+    font-size: 0.6rem;
+    color: #76747b;
+}
+
+
+input {
+    height: 56px;
+    border-radius: 8px;
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    width: 100%;
+    padding: 0 24px;
+}
+
+.date-block {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+legend.segunda {
+    font-size: 1rem;
+    line-height: 34px;
+}
+
+
+.date-time {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.date-time > div:nth-child(1){
+    width: 100%;
+    margin-right: 22px;
+}
+
+footer {
+    background: #535971;
+    border-radius: 0px 0px 20px 20px;
+    max-width: 750px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 52px 71px;
+}
+
+.button {
+    background-color: #ff5375a3;
+    border: none;
+    padding: 15px 40px;
+    gap: 10px;
+    border-radius: 20px;
+
+    color: #FFFFFF;
+    font-size: 1rem;
+    line-height: 26px;
+
+    transition: all .2s;
+}
+
+.button:hover {
+    background-color: #FF5374;
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+
+@media (max-width:800px){
+    form{
+        padding: 52px;
+    }
+    .input-wrapper-name {
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .date-time {
+        width: 100px;
+    }
+}
+
+
+@media (max-width:470px){
+    header, legend.legend-legend{
+        text-align: center;
+    }
+
+    header{
+        margin-top: 50px;    
+    }
+    header h1 {
+        line-height: 30px;
+    }
+    header p {
+        line-height: 20px;
+        margin-bottom: 30px;
+    }
+    form{
+        padding: 32px;
+    }
+    .fieldset-wrapper {
+        gap: 28px;
+    }
+
+    .input-wrapper-name, .date-time {
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .date-time {
+        width: 150px;
+    }
+
+    .date {
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    .button {
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width:380px){
+    form {
+        padding: 20px;
+    }
+    input{
+        width: 280px;
+    }
+
+    .date {
+        gap: 10px;
+    }
+    .date-block input {
+        width: 110px;
+    }
+}

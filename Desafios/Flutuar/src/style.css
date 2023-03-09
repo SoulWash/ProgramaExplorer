@@ -10,17 +10,18 @@
 
 body {
     margin: auto;
-
-    text-align: center;
-
     display: flex;
+    text-align: center;
     flex-direction: column;
     align-items: center;
 }
 
 main {
-    width: 626px;
-    margin: 64px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 626px;
+    padding-top: 64px;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -30,6 +31,8 @@ main h1 {
     margin-bottom: 16px;
     font-size: 2rem;
     font-weight: 500;
+
+    flex-wrap: wrap;
 }
 
 p{
@@ -37,6 +40,8 @@ p{
     line-height: 22px;
     margin-bottom: 32px;
     font-weight: 400;
+
+    flex-wrap: wrap;
 }
 
 p, a {
@@ -59,7 +64,7 @@ strong {
 
 #line {
     border: 1px solid #ECEFF2;
-    width: 391px;
+    max-width: 391px;
     margin: 0 auto 16px;
 }
 
@@ -67,24 +72,48 @@ footer {
     margin: 64px auto 42px;
 }
 
+footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 42px;
+}
+
+footer li {
+    transition: all .2s;
+}
+footer li:hover{
+    color: var(--color-span);
+    transform: scale(1.1);
+}
+
 footer a {
     text-decoration: none;
     color: #3F3D56;
     font-weight: bold;
     font-size: 0.8rem;
-    transition: all .2s;
 }
 
-footer a:hover {
-    color: var(--color-span);
-}
-
-footer a + a {
-    margin-left: 42px;
-}
 
 #wave {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100vw;
+}
+
+@media (max-width:380px){
+    main img {
+        width: 300px;
+    }
+
+    footer ul {
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    #wave{
+        display: none;
+    }
+
 }
