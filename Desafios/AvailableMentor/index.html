@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="shortcut icon" href="src/image/star.svg" type="image/svg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Staatliches&display=swap"
+        rel="stylesheet">
+
+    <title>Available Mentor</title>
+</head>
+
+<body>
+    <div class="page">
+        <header>
+            <h1>avalie a sua mentoria</h1>
+            <p>Chegou a hora de avaliar o seu mentor. Bora lá?</p>
+            <img src="src/image/cloud-available.svg"
+                alt="Balazinho de texto com cinco estrelas, entre elas três estão selecionadas">
+        </header>
+        <h3 class="legend-inicial">Informações pessoais</h3>
+        <form action="">
+            <fieldset class="fieldset-wrapper">
+                <div class="input-wrapper">
+                    <div class="input-wrapper-name">
+                        <div class="name">
+                            <label for="event-name">Nome</label>
+                            <input type="text" id="event-name">
+                        </div>
+                        <div class="name">
+                            <label for="subname">Sobrenome</label>
+                            <input type="text" id="event-subname">
+                        </div>
+                    </div>
+                </div>
+                <div class="input-wrapper">
+                    <label for="event-email">Email <span>(digite um email válido)</span></label>
+                    <input type="email" id="event-email">
+                </div>
+            </fieldset>
+            <fieldset class="fieldset-wrapper">
+                <legend>Informações do mentor</legend>
+                <div class="line"></div>
+                <div class="input-wrapper">
+                    <label for="event-opt">Selecione quem foi o seu mentor</label>
+                    <select id="event-opt">
+                        <option value="Df">Diego Fernandes</option>
+                        <option value="Mb">Mayk Brito</option>
+                        <option value="Jg">Jakeliny Gracielly</option>
+                        <option value="Jb">João(birobiro)</option>
+                    </select>
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="event-textarea">Feedback sobre o mentor</label>
+                    <textarea id="event-textarea" cols="30" rows="10" ></textarea>
+                </div>
+
+                <div class="check-wrapper">
+                    <input type="checkbox" id="event-checkbox">
+                    <label for="event-checkbox">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
+                </div>
+            </fieldset>
+
+            <fieldset class="fieldset-wrapper">
+                <legend>Agendando próxima mentoria</legend>
+                <div class="input-wrapper">
+                    <div class="date-time">
+                        <div class="date">
+                            <label for="event-date">Data <span>(DD/MM/AAAA)</span></label>
+                            <input type="date" id="event-date">
+                        </div>
+                        <div class="time">
+                            <label for="event-in">Das</label>
+                            <input type="time" id="event-in">
+                        </div>
+                        <div class="time">
+                            <label for="event-out">Até</label>
+                            <input type="time" id="event-out">
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+            <input type="submit" value="Salvar" class="button">
+        </form>
+    </div>
+</body>
+
+</html>
