@@ -17,7 +17,7 @@
 
     --fs-h:clamp(2rem,1rem + 5vw,5rem);
     --fs-h2:clamp(2rem,0.5rem + 2vw,3rem);
-    --fs-p:clamp(1rem,0.5rem + 2vw,3rem);
+    --fs-p:clamp(1rem,0.5rem + 2vw,2.5rem);
 }
 
 body {
