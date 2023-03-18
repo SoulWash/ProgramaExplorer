@@ -33,13 +33,16 @@ Projetos e disafios propostos pelo programa Explorer da RocketSeat para melhoria
 Projetos em aula:<br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project01/" target="_blank">Projeto01: Móveis customizados</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project02/" target="_blank">Projeto02: Treine.me</a><br>
-<a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project03/" target="_blank">Projeto02: Formulário de Evento</a><br>
+<a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project03/" target="_blank">Projeto03: Formulário de Evento</a><br>
+<a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project04/" target="_blank">Projeto04: Introdução a Resposividade</a><br>
+<a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project05/" target="_blank">Projeto05: Componente Trabalhos</a><br>
 
 Desafios:<br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/Flutuar/" target="_blank">Desafio01: Flutuar.com</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/Rocket.sect" target="_blank">Desafio02: Rocket.sect</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/Mentoria" target="_blank">Desafio03: Mentoria</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/AvailableMentor" target="_blank">DesafioBônus: Avaliação de Mentor</a><br>
+<a href="https://soulwash.github.io/ProgramaExplorer/Desafios/SpaceCream" target="_blank">Desafio04: Space Cream</a><br>
 
 
 ## :memo: Licença

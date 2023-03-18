@@ -1,0 +1,26 @@
+@media (min-width:700px){
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 100vh;
+
+        padding: 8rem;
+    }
+    main{
+        max-width: 1020px;
+        display: flex;
+        gap: 10rem;
+    }
+
+    main > div {
+        max-width: 484px;
+    }
+
+    ul li {
+        gap: 5.3rem;
+        max-width: 500px;
+        align-items: center;
+    }
+}

@@ -1,0 +1,27 @@
+@media (min-width:700px){
+    main .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width:930px){
+
+    main .cards{
+        grid-template-areas: "A A B" "C C D";
+    }
+    main .cards div:nth-child(1){
+        grid-area: A;
+    }
+    main .cards div:nth-child(2){
+        grid-area: B;
+    }
+    main .cards div:nth-child(3){
+        grid-area: C;
+    }
+    main .cards div:nth-child(4){
+        grid-area: D;
+    }
+
+}
+

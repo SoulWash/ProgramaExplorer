@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+body {
+    background-color: #ECE9FD;
+    padding: 60px 23px 66px;
+    font-size: 1.6rem;
+    font:normal 400 1.6rem 'Epilogue';
+
+}
+
+main {
+    max-width: 33.0rem;
+    margin: 0 auto;
+}
+
+
+h1 {
+    font:normal 800 4rem 'Epilogue', sans-serif;
+    line-height: 4.8rem;
+    color: #090039;
+    margin-bottom: 1.5rem;
+}
+
+
+main p:nth-child(1){
+    font:normal 400 1.6rem 'Epilogue';
+    line-height: 3.2rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #7158EF;
+
+    margin-bottom: 1.7rem;
+}
+
+h1 + p {
+    line-height: 3.2rem;
+    color: rgba(10, 0, 57, 0.64);
+    margin-bottom: 3.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #090039;
+}
+a:hover {
+    color: #7158EF;
+}
+
+ul {
+    list-style: none;
+    margin-top: 7.2rem;
+}
+
+ul li {
+    font:normal 700 2.4rem 'Epilogue';
+    line-height: 3.2rem;
+    color: #090039;
+
+    max-width: 25.7rem;
+    display: flex;
+    gap: 3.8rem;
+}
+
+ul li + li {
+    margin-top: 3.2rem;
+}
+
+
+ul li span {
+    font:normal 800 7.2rem 'Epilogue';
+    line-height: 8.0rem;
+    letter-spacing: -2px;
+    color: #090039;
+}
