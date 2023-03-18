@@ -17,7 +17,7 @@
 
     --fs-h:clamp(2rem,1rem + 5vw,5rem);
     --fs-h2:clamp(2rem,0.5rem + 2vw,3rem);
-    --fs-p:clamp(2rem,0.5rem + 1vw,3rem);
+    --fs-p:clamp(1rem,0.5rem + 2vw,3rem);
 }
 
 body {
@@ -77,7 +77,7 @@ main {
 main p {
     padding: 1.4rem 0 3.1rem;
     font:normal 400 var(--fs-p) var(--ff-p);
-    line-height: 2.5rem;
+    line-height: clamp(1.5rem,0.5rem + 5vw);
     margin-bottom: 32px;
 }
 
@@ -126,7 +126,6 @@ footer {
 footer p {
     font: normal 400 1.6rem var(--ff-p);
     line-height: 2.4rem;
-
     animation: footerp 10s 400ms infinite forwards;
 }
 
