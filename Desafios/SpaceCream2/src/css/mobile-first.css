@@ -27,7 +27,7 @@ body {
 }
 
 .page {
-    max-width: clamp(38.4rem,30rem + 60vw ,128rem);
+    max-width: clamp(38.4rem,50rem + 50vw ,100rem);
     margin: 0 auto;
     text-align: center;
     animation: bordPage 2s 400ms backwards infinite ease-in-out;
@@ -133,7 +133,7 @@ h2 {
 footer {
     margin: 2rem auto 0;
     background-color: aqua;
-    max-width: clamp(38.4rem,30rem + 60vw ,128rem);
+    max-width: clamp(38.4rem,50rem + 60vw ,100rem);
     border-radius: 8px;
     width: 100vw;
 }
