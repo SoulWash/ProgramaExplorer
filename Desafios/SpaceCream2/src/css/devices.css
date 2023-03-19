@@ -1,0 +1,104 @@
+@media (min-width:700px){
+    main .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media (min-width:930px){
+
+    main .cards{
+        grid-template-areas: "A A B" "E E F";
+    }
+    main .cards div:nth-child(1){
+        grid-area: A;
+    }
+    main .cards div:nth-child(2){
+        grid-area: B;
+    }
+    main .cards div:nth-child(5){
+        grid-area: E;
+    }
+    main .cards div:nth-child(6){
+        grid-area: F;
+    }
+
+}
+
+
+@media (min-width:1200px){
+
+    :root {
+        --ff-p:'Roboto';
+        --ff-p2:'Open Sans';
+    }
+    .page {
+        display: flex;
+        border-radius: 0 2rem 2rem;
+        width: 100vw;
+    }
+    header {
+        max-width: 37.7rem;
+        border-radius:0 0 0 2rem;    
+    }
+
+    header p {
+        display: block;
+        font:normal 400 var(--fs-p) var(--ff-p);
+        line-height: 1rem;
+        color: #FFFFFF;
+        padding: 3.2rem;
+        text-align: left;
+        text-indent: 1rem;
+    }
+
+    main .pMobile, h2 {
+        display: none;
+    }
+
+    main {
+        border-radius: 0 0 2rem 0;
+        width: 100vw;
+        padding: 6.4rem 9.8rem;
+
+    }
+    main p {
+        padding-top: 5rem;
+        font:normal 400 1.4rem var(--ff-p2);
+        line-height: 2.8rem;
+        color: #4A4E69;
+    }
+
+    .card img {
+        width: 22rem;
+    }
+
+    main .cards{
+        grid-template-areas: "A B C" "D B F" "D E F";
+        align-items: normal;
+    }
+    main .cards div:nth-child(3){
+        grid-area: C;
+        display: block;
+    }
+    main .cards div:nth-child(4){
+        grid-area: D;
+        display: block;
+    }
+
+    main .cards .down{
+        animation: imgDown 700ms;
+    }
+
+    @keyframes imgDown {
+        0% {
+            opacity: 0;
+            transform: translateY(-100px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+}

@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --ff-h:'Staatliches', cursive;
+    --ff-p: 'Palanquin', sans-serif;
+    font-size: 62.5%;
+
+    --ctext:hsl(232, 17%, 35%);
+    --cbg-primary:hsl(218, 25%, 57%);
+    --cbg-primary-header:hsl(275, 35%, 63%);
+    --cbg-secondary:hsl(233, 100%, 97%);
+    --cbg-secondary-h2:hsl(312, 91%, 96%);
+
+    --fs-h:clamp(2rem,1rem + 5vw,5rem);
+    --fs-h2:clamp(2rem,0.5rem + 2vw,3rem);
+    --fs-p:clamp(1rem,0.5rem + 2vw,2.4rem);
+}
+
+body {
+    color: var(--ctext);
+    text-align: center;
+    background-color: var(--ctext);
+}
+
+.page {
+    max-width: clamp(38.4rem,30rem + 60vw ,128rem);
+    margin: 0 auto;
+    text-align: center;
+    animation: bordPage 2s 400ms backwards infinite ease-in-out;
+}
+
+img {
+    width: 100%;
+    filter: brightness(80%) saturate(50%);
+    transition: transform .3s ease-in-out;
+}
+img:hover {
+    filter: brightness(100%) saturate(100%);
+    transform: scale(1.1);
+}
+
+header {
+    color: var();
+    background-color: var(--cbg-primary);
+    padding-bottom: 2.9rem;
+}
+
+header img {
+    max-width: 16.7rem;
+    margin: 3.2rem auto;
+    filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.25));
+
+    animation: logo 1s ease-in-out;
+}
+
+header h1 {
+    background-color: var(--cbg-primary-header);
+    color: #FFF;
+    font:normal 400 var(--fs-h) var(--ff-h);
+    line-height: 3.4rem;
+    padding: 2rem 0;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+header p {
+    display: none;
+}
+
+main {
+    background-color: var(--cbg-secondary);
+    padding: 0 3.2rem 2rem;
+    border-radius: 0 0 1rem 1rem;
+}
+
+
+.page p {
+    line-height: clamp(1.5rem,0.5rem + 5vw, 3rem);
+}
+
+main .pMobile {
+    font:normal 400 var(--fs-p) var(--ff-p);
+    padding: 1.4rem 0 3.1rem;
+    margin-bottom: 32px;
+}
+
+main .cards {
+    display: grid;
+    gap:3.2rem;
+}
+
+main .cards div:nth-child(3){
+    grid-area: C;
+    display: none;
+}
+main .cards div:nth-child(4){
+    grid-area: D;
+    display: none;
+}
+
+.cards .card img {
+    max-width: clamp(32.0rem,30rem + 60vw, 58rem);
+    object-fit: cover;
+    border-radius: 2rem;
+    animation: imgUP 700ms;
+
+}
+
+.card{
+    position: relative;
+}
+
+h2 {
+    position: absolute;
+    top: 2.6rem;
+    right: 2.8rem;
+    text-transform: uppercase;
+    font:normal 400 var(--fs-h2) var(--ff-h);
+    color: var(--ctext);
+    background-color: var(--cbg-secondary-h2);
+    line-height: 3.4rem;
+    letter-spacing: 0.05em;
+    padding: 1px 2.4rem;
+    border-radius: 2rem;
+    background-color: var(--cbg-secondary-h2);
+
+    animation: downH2 700ms 300ms backwards;
+}
+
+footer {
+    margin: 2rem auto 0;
+    background-color: aqua;
+    max-width: clamp(38.4rem,30rem + 60vw ,128rem);
+    border-radius: 8px;
+    width: 100vw;
+}
+
+footer p {
+    font: normal 400 1.6rem var(--ff-p);
+    line-height: 2.4rem;
+    animation: footerp 10s 400ms infinite forwards;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--ctext);
+}
+footer p span{
+    color: red;
+}
+
+@keyframes logo {
+    0%{
+        transform: rotate(180deg);
+    }
+    50% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+
+@keyframes imgUP {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+} 
+
+@keyframes downH2{
+    0% {
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes bordPage {
+    100% {
+        box-shadow:hsl(312, 88%, 87%) -10px 0px 14px -6px,hsl(312, 88%, 87%) 10px 0px 14px -6px, hsl(312, 88%, 87%) 0px 10px 14px -6px;
+    }
+    50% {
+        box-shadow:hsl(312, 88%, 87%,0.6) -10px 0px 14px -6px,hsl(312, 88%, 87%,0.6) 10px 0px 14px -6px, hsl(312, 88%, 87%,0.6) 0px 10px 14px -6px;
+    }
+    0% {
+        box-shadow:hsl(312, 88%, 87%) -10px 0px 14px -6px,hsl(312, 88%, 87%) 10px 0px 14px -6px, hsl(312, 88%, 87%) 0px 10px 14px -6px;
+    }
+}
+
+@keyframes footerp{
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 0;
+    }
+}

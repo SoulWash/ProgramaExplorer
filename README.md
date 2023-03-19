@@ -43,6 +43,7 @@ Desafios:<br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/Mentoria" target="_blank">Desafio03: Mentoria</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/AvailableMentor" target="_blank">DesafioBônus: Avaliação de Mentor</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/SpaceCream" target="_blank">Desafio04: Space Cream</a><br>
+<a href="https://soulwash.github.io/ProgramaExplorer/Desafios/SpaceCream" target="_blank">Desafio05: Space Cream(2)</a><br>
 
 
 ## :memo: Licença
