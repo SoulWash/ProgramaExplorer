@@ -44,6 +44,8 @@ Desafios:<br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/AvailableMentor" target="_blank">DesafioBônus: Avaliação de Mentor</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/SpaceCream" target="_blank">Desafio04: Space Cream</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/SpaceCream2" target="_blank">Desafio05: Space Cream(2)</a><br>
+<a href="https://soulwash.github.io/ProgramaExplorer/Desafios/SpaceCream2" target="_blank">Desafio06: Jardim das Toupeiras</a><br>
+
 
 
 ## :memo: Licença
