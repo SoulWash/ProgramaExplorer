@@ -33,6 +33,7 @@ nav {
 
 #logo,
 a {
+    cursor: pointer;
     transition: all .3s;
 }
 #logo:hover {
@@ -53,7 +54,6 @@ a {
     text-decoration: none;
     color: var(--color-font);
     opacity: 0.5;
-    cursor: pointer;
 }
 a:hover {
     color: #00BFA6;
