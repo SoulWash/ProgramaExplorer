@@ -36,6 +36,7 @@ Projetos em aula:<br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project03/" target="_blank">Projeto03: Formulário de Evento</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project04/" target="_blank">Projeto04: Introdução a Resposividade</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project05/" target="_blank">Projeto05: Componente Trabalhos</a><br>
+<a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project06/" target="_blank">Projeto06: Jogo da Adivinhação: 0 e 10</a><br>
 
 Desafios:<br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/Flutuar/" target="_blank">Desafio01: Flutuar.com</a><br>
@@ -45,7 +46,7 @@ Desafios:<br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/SpaceCream" target="_blank">Desafio04: Space Cream</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/SpaceCream2" target="_blank">Desafio05: Space Cream(2)</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/JardimDasToupeiras" target="_blank">Desafio06: Jardim das Toupeiras</a><br>
-
+<a href="https://soulwash.github.io/ProgramaExplorer/Desafios/BiscoitoDaSorte" target="_blank">Desafio07: Biscoito da Sorte</a><br>
 
 
 ## :memo: Licença
