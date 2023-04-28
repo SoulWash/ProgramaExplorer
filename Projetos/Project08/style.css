@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-image: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+  linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+  linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+  linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+  linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+  linear-gradient(
+    #1d1d1d 25%,
+    #1a1a1a 25%,
+    #1a1a1a 50%,
+    transparent 50%,
+    transparent 75%,
+    #242424 75%,
+    #242424
+  );
+  --bg-color:#131313;
+  --bg-size: 20px 20px;
+
+  --base-color: 356;
+  --bg-primary-light: hsla(var(--base-color), 57%, 24%, 0.219);
+  --primary-color: hsl(var(--base-color), 95%, 46%);
+  --text-color: #ffffff;
+  --border-extra: rgb(60, 33, 3);
+
+  font-size: 62.5%;
+}
+
+body {
+  background: url(./image/PagansinthehouseofGod.jpg)no-repeat center/ cover;
+  color: var(--primary-color);
+
+  font-family: "Roboto", sans-serif;
+
+  display: grid;
+  min-height: 100vh;
+  position: relative;
+}
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+.play svg path,
+.pause svg path,
+.sound-on svg path {
+  fill: var(--primary-color);
+}
+
+.sound-on svg,
+.sound-off svg {
+    background: var(--bg-image);
+    background-color: var(--bg-color);
+    background-size: var(--bg-size);
+    border-radius: 1rem;
+    border: 2px solid var(--border-extra);
+
+    transition: border .2s ease-in-out;
+}
+.sound-on svg:hover,
+.sound-off svg:hover {
+    border-color: var(--primary-color);
+} 
+
+button svg {
+  width: clamp(3.2rem, 2rem + 12vw, 6.4rem);
+  transition: transform 0.2s ease-in-out;
+}
+button svg:hover, .ph-moon:hover, .ph-sun:hover {
+  transform: scale(1.05);
+}
+
+main {
+  align-self: end;
+  justify-self: center;
+}
+
+#timer {
+  font-size: clamp(4.4rem, 4rem + 10vw, 8.8rem);
+  line-height: 10.3rem;
+
+  display: flex;
+  margin-bottom: 1.6rem;
+}
+
+#controls {
+  background: var(--bg-primary-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+  border-radius: 999px;
+  width: clamp(10rem, 10rem + 30vw, 22.8rem);
+  height: clamp(8rem, 5rem + 10vw, 10.8rem);
+  border: 5px solid var(--border-extra);
+  transition: border 0.2s ease-in-out;
+}
+#controls:hover {
+  border-color: var(--primary-color);
+}
+
+footer {
+  align-self: end;
+  justify-self: end;
+  padding: 0 4rem 3.2rem 0;
+}
+
+main::before {
+  content: "";
+  right: 50%;
+  transform: translate(50%);
+  position: absolute;
+  z-index: -1;
+  height: clamp(22rem, 1rem + 50vw, 25rem);
+  width: clamp(25rem, 10rem + 30vw, 35rem);
+  background: var(--bg-image);
+  background-color: var(--bg-color);
+  background-size: var(--bg-size);
+  border-radius: 0.8rem;
+  border: 5px solid var(--border-extra);
+  box-shadow: 2px 3px 10px 5px rgba(0, 0, 0, 0.532);
+}
+
+
+.lightMode {
+  background:linear-gradient(#ffffff 50%, rgba(255,255,255,0) 0) 0 0,
+  radial-gradient(circle closest-side, #FFFFFF 53%, rgba(255,255,255,0) 0) 0 0,
+  radial-gradient(circle closest-side, #FFFFFF 50%, rgba(255,255,255,0) 0) 55px 0 #48B;
+  background-size: 110px 200px;
+  background-repeat: repeat-x;
+
+  --base-color: 55;
+  --bg-primary-light: hsla(var(--base-color), 57%, 24%, 0.219);
+  --primary-color: hsl(var(--base-color), 95%, 46%);
+
+
+  --bg-image: radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+  radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+  radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+  radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+  --bg-color:#000000;
+  --bg-size:  550px 550px, 350px 350px, 250px 250px, 150px 150px;
+  --border-extra: hsla(200, 91%, 50%, 0.746);
+}
+
+.lightMode main::before {
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+
+
+
+body .ph-sun, body .ph-moon{
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  font-size: 8rem;
+  color: rgb(243, 228, 12);
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+body .ph-moon{
+  color: rgb(0, 0, 0);
+}

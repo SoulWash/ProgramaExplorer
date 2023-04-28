@@ -37,6 +37,8 @@ Projetos em aula:<br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project04/" target="_blank">Projeto04: Introdução a Resposividade</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project05/" target="_blank">Projeto05: Componente Trabalhos</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project06/" target="_blank">Projeto06: Jogo da Adivinhação: 0 e 10</a><br>
+<a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project07/" target="_blank">Projeto07: Calculadora de IMC</a><br>
+<a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project08/" target="_blank">Projeto08: FocusTimer - Pomodoro</a><br>
 
 Desafios:<br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/Flutuar/" target="_blank">Desafio01: Flutuar.com</a><br>
