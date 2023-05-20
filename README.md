@@ -49,6 +49,7 @@ Desafios:<br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/SpaceCream2" target="_blank">Desafio05: Space Cream(2)</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/JardimDasToupeiras" target="_blank">Desafio06: Jardim das Toupeiras</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/BiscoitoDaSorte" target="_blank">Desafio07: Biscoito da Sorte</a><br>
+<a href="https://soulwash.github.io/ProgramaExplorer/Desafios/FocusTimer2.0" target="_blank">Desafio08: FocusTimer2.0</a><br>
 
 
 ## :memo: Licença
