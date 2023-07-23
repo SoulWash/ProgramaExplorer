@@ -35,6 +35,9 @@ Projetos em aula:<br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project02/" target="_blank">Projeto02: Treine.me</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project03/" target="_blank">Projeto03: Formulário de Evento</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project04/" target="_blank">Projeto04: Introdução a Resposividade</a><br>
+<a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project04-2/" target="_blank">Projeto04-2: Cheesecake</a><br>
+<a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project04-3/" target="_blank">Projeto04-3: Galaxies</a><br>
+<a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project04-4/" target="_blank">Projeto04-4: Fotoblog</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project05/" target="_blank">Projeto05: Componente Trabalhos</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project06/" target="_blank">Projeto06: Jogo da Adivinhação: 0 e 10</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project07/" target="_blank">Projeto07: Calculadora de IMC</a><br>
@@ -47,6 +50,7 @@ Desafios:<br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/AvailableMentor" target="_blank">DesafioBônus: Avaliação de Mentor</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/SpaceCream" target="_blank">Desafio04: Space Cream</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/SpaceCream2" target="_blank">Desafio05: Space Cream(2)</a><br>
+<a href="https://soulwash.github.io/ProgramaExplorer/Desafios/ExplorerSemLimites" target="_blank">Desafio05-1: Explorer Sem Limites</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/JardimDasToupeiras" target="_blank">Desafio06: Jardim das Toupeiras</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/BiscoitoDaSorte" target="_blank">Desafio07: Biscoito da Sorte</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/FocusTimer2.0" target="_blank">Desafio08: FocusTimer2.0</a><br>

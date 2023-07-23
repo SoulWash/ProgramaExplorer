@@ -1,0 +1,50 @@
+@media (min-width:1164px) {
+    header {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+
+        padding:0 2.9rem 10.3rem 10.9rem;
+        position: relative;
+    }
+
+    #header-text {
+        text-align: left;
+    }
+
+    
+    #header-text a.arrow svg{
+        position: absolute;
+        bottom: 5%;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .container h1{
+        font-size: 3.5rem;
+    }
+    .container p{
+        font-size: 1.9rem;
+    }
+    .container img {
+        width: 9.7rem;
+        height: 9.7rem;
+    }
+
+    #form {
+        display: flex;
+        gap: 9.2rem;
+        position: relative;
+        align-items: center;
+        padding-left: 10.9rem;
+    }
+
+    #form img {
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+}
