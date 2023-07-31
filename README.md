@@ -48,9 +48,10 @@ Desafios:<br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/Rocket.sect" target="_blank">Desafio02: Rocket.sect</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/Mentoria" target="_blank">Desafio03: Mentoria</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/AvailableMentor" target="_blank">DesafioBônus: Avaliação de Mentor</a><br>
-<a href="https://soulwash.github.io/ProgramaExplorer/Desafios/SpaceCream" target="_blank">Desafio04: Space Cream</a><br>
-<a href="https://soulwash.github.io/ProgramaExplorer/Desafios/SpaceCream2" target="_blank">Desafio05: Space Cream(2)</a><br>
-<a href="https://soulwash.github.io/ProgramaExplorer/Desafios/ExplorerSemLimites" target="_blank">Desafio05-1: Explorer Sem Limites</a><br>
+<a href="https://soulwash.github.io/ProgramaExplorer/Desafios/AvailableMentor" target="_blank">Desafio04: Space Cream</a><br>
+<a href="https://soulwash.github.io/ProgramaExplorer/Desafios/SpaceCream2" target="_blank">Desafio04-1: Space Cream(2)</a><br>
+<a href="https://soulwash.github.io/ProgramaExplorer/Desafios/BlogDeGatos" target="_blank">Desafio04-2: Blog Dos Gatos</a><br>
+<a href="https://soulwash.github.io/ProgramaExplorer/Desafios/ExplorerSemLimites" target="_blank">Desafio05: Explorer Sem Limites</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/JardimDasToupeiras" target="_blank">Desafio06: Jardim das Toupeiras</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/BiscoitoDaSorte" target="_blank">Desafio07: Biscoito da Sorte</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/FocusTimer2.0" target="_blank">Desafio08: FocusTimer2.0</a><br>

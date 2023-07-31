@@ -1,0 +1,62 @@
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        scale: 0.7;
+    }
+    50% {
+        scale: 1.2;
+    }
+}
+
+.cats-container img {
+    --delay: 0s;
+    animation: appear 1s var(--delay) backwards ease-in-out;
+}
+
+
+.avatar{
+    animation: move 1.2s alternate forwards infinite linear;
+}
+
+.logo {
+    animation: blink 1.8s forwards alternate infinite ease-in-out;
+}
+
+.cats-text {
+    --delay: 0s;
+    animation: moveText .8s var(--delay) backwards ease-in;
+    overflow: hidden;
+}
+
+@keyframes move {
+    100% {
+        transform: translateX(8px);
+    }
+}
+
+@keyframes blink {
+    100% {
+        opacity: 0.5;
+        scale: 0.7;
+        rotate: 10deg;
+    }
+}
+
+@keyframes moveText {
+    100% {
+        transform: translateX(10px);
+        opacity: 0;
+    }
+}
+
+
+.main-container img {
+    animation: storm 1s backwards ease-in-out infinite alternate;
+}
+
+@keyframes storm {
+    100% {
+        rotate: -1deg;
+    }
+}

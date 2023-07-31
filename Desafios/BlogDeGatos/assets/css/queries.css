@@ -1,0 +1,80 @@
+@media (min-width:1440px){
+    #app {
+        width: 144rem;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-areas: 
+        'header header header'
+        'main main main'
+        'footer footer footer';
+
+    }
+
+    main,footer {
+        padding: 0 11.2rem;
+    }
+
+
+    header {
+        grid-area: header;
+        padding: 0 8.4rem;
+    }
+    input {
+        width:108.3rem;
+    }
+
+    main {
+        margin: 2.4rem 0;
+        grid-area: main;
+        display: grid;
+        grid-template-areas: 'main-container main-container aside';
+        gap: 3.2rem;
+    }
+
+    .main-container {
+        grid-area: main-container;
+    }
+    aside {
+        grid-area: aside;
+        margin: -3.6rem 0;
+        padding: 0;
+    }
+
+    footer {
+        grid-area: footer;
+
+    }
+
+    .title-buttons {
+        display:flex;
+        justify-content: space-between;
+        align-items: end;
+    }
+
+
+    .text {
+        overflow-y: scroll;
+        height: 280px;
+    }
+
+
+    
+    * {
+        scrollbar-width: thin;
+        scrollbar-color: var(--color-blue-dark) var(--color-white);
+      }
+      
+      /* Works on Chrome, Edge, and Safari */
+      *::-webkit-scrollbar {
+        width: 12px;
+      }
+      
+      *::-webkit-scrollbar-track {
+        background: var(--color-white);
+      }
+      
+      *::-webkit-scrollbar-thumb {
+        background-color: var(--color-blue-dark);
+        border-radius: 20px;
+        border: 3px solid var(--color-white);
+      }
+}
