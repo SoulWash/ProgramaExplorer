@@ -1,0 +1,104 @@
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+
+  display: grid;
+  height: 100vh;
+  place-content: center;
+}
+
+#app {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  color: var(--primary);
+  cursor: pointer;
+  font-size: 6.4rem;
+}
+
+#timer {
+  font-size: 20.6rem;
+  font-weight: 500;
+}
+
+#controls {
+  flex-direction: column;
+  align-items: center;
+}
+
+.timerControls {
+  padding: 3.8rem;
+  gap: 3rem;
+}
+
+.secondary {
+  color: var(--button-secondary);
+}
+
+.ambientSound {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.2rem;
+
+
+}
+
+.ambientSound button {
+  background-color: var(--controls-bg-color);
+  padding: 2.4rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.2rem;
+  color: var(--text-color);
+  border-radius: 2.4rem;
+
+  transition: all .3s ease-in-out;
+}
+
+.ambientSound button:hover, .music-on{
+  color: var(--controls-bg-color);
+  background-color: var(--button-hover);
+}
+
+
+.running .ph-play-circle,
+.running .ph-timer,
+html:not(.running) .ph-pause-circle,
+html:not(.running) .ph-stop-circle {
+  display: none;
+}
+
+input[type="range"] {
+  appearance: none;
+  background-color: var(--text-color);
+  height: .4rem;
+  width: 80%;
+}
+
+
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%; 
+
+    background: var(--primary);
+    cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width: 860px) {
+  #app {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,25 @@
+html.light {
+    --hue:0;
+    --bg-color:hsla(var(--hue), 40%, 98%, 1);
+    --text-color:hsl(var(--hue), 5%, 7%);
+    --controls-bg-color:hsl(var(--hue), 9%, 89%);
+    --primary: hsl(var(--hue), 100%, 50%);
+    --button-secondary:hsl(var(--hue), 0%, 0%);
+
+    --button-hover:hsl(194, 98%, 33%);
+}
+
+html.light .ph-sun,
+html:not(.light) .ph-moon{
+    display: none;
+}
+
+#toggle-mode {
+    position: absolute;
+    right: 3.2rem;
+    top: 3.2rem;
+    font-size: 3.2rem;
+    line-height: 0;
+    color: var(--text-color);
+}
+

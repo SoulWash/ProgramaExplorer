@@ -42,6 +42,7 @@ Projetos em aula:<br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project06/" target="_blank">Projeto06: Jogo da Adivinhação: 0 e 10</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project07/" target="_blank">Projeto07: Calculadora de IMC</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project08/" target="_blank">Projeto08: FocusTimer - Pomodoro</a><br>
+<a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project08-2/" target="_blank">Projeto08: FocusTimer2v - Pomodoro</a><br>
 
 Desafios:<br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/Flutuar/" target="_blank">Desafio01: Flutuar.com</a><br>
@@ -55,6 +56,7 @@ Desafios:<br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/JardimDasToupeiras" target="_blank">Desafio06: Jardim das Toupeiras</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/BiscoitoDaSorte" target="_blank">Desafio07: Biscoito da Sorte</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/FocusTimer2.0" target="_blank">Desafio08: FocusTimer2.0</a><br>
+<a href="https://soulwash.github.io/ProgramaExplorer/Desafios/FocusTimerv3" target="_blank">Desafio08: FocusTimerv3</a><br>
 
 
 ## :memo: Licença

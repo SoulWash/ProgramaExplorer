@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Fonts google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@400;500;600&display=swap" rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/toggleMode.css">
+
+    <!--Meta Description-->
+    <meta name="description" content="Temporizador estilo pomodoro.">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-svg">
+
+    <!--Phosphor Icon-->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!--JavaScript-->
+    <script type="module" src="./src/js/main.js" defer></script>
+
+    <title>FocusTimerv3</title>
+</head>
+
+<body>
+    <div id="app">
+        <button id="toggle-mode">
+            <span class="sr-only">Ativar Light Mode</span>
+            <i class="ph-bold ph-sun"></i>
+            <i class="ph-bold ph-moon"></i>
+        </button>
+
+        <div class="flex" id="controls">
+            <section id="timer" class="flex">
+                <span id="minutes">00</span>
+                <span>:</span>
+                <span id="seconds">00</span>
+            </section>
+
+            <section class="timerControls flex">
+                <button class="ph-bold ph-play-circle" data-action="toggleRunning">
+                    <span class="sr-only">Iniciar contador</span>
+                </button>
+                <button class="ph-bold ph-pause-circle" data-action="toggleRunning">
+                    <span class="sr-only">Pausar contador</span>
+                </button>
+                <button class="ph-bold ph-timer secondary" data-action="set">
+                    <span class="sr-only">Ajustar contador</span>
+                </button>
+                <button class="ph ph-stop-circle secondary" data-action="reset">
+                    <span class="sr-only">Reiniciar contador</span>
+                </button>
+                <button class="ph-bold ph-plus-circle" data-action="plus">
+                    <span class="sr-only">Aumentar 5 minutos</span>
+                </button>
+                <button class="ph-bold ph-minus-circle" data-action="minus">
+                    <span class="sr-only">Diminuir 5 minutos</span>
+                </button>
+            </section>
+        </div>
+
+        <div class="ambientSound">
+            <button class="ph-bold ph-tree" id="range_florest" data-action="toggleMusic">
+                <span class="sr-only">Som de floresta</span>
+
+
+                <input type="range" id="range_florest" min="0" max="100" step="1">
+
+            </button>
+            <button class="ph-bold ph-cloud-rain" id="range_rain" data-action="toggleMusic">
+                <span class="sr-only">Som de chuva</span>
+
+                <input type="range" id="range_rain" min="0" max="100" step="1">
+
+            </button>
+            <button class="ph-bold ph-storefront" id="range_store" data-action="toggleMusic">
+                <span class="sr-only">Som de pessoas conversondo</span>
+
+                <input type="range" id="range_store" min="0" max="100" step="1">
+
+            </button>
+            <button class="ph-bold ph-campfire" id="range_fire" data-action="toggleMusic">
+                <span class="sr-only">Som de fogueira</span>
+                <input type="range" id="range_fire" min="0" max="100" step="1">
+
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
+
