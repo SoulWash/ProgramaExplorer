@@ -43,6 +43,7 @@ Projetos em aula:<br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project07/" target="_blank">Projeto07: Calculadora de IMC</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project08/" target="_blank">Projeto08: FocusTimer - Pomodoro</a><br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project08-2/" target="_blank">Projeto08: FocusTimer2v - Pomodoro</a><br>
+<a href="https://soulwash.github.io/ProgramaExplorer/Projetos/Project10/" target="_blank">Projeto10: Github Favorites</a><br>
 
 Desafios:<br>
 <a href="https://soulwash.github.io/ProgramaExplorer/Desafios/Flutuar/" target="_blank">Desafio01: Flutuar.com</a><br>
