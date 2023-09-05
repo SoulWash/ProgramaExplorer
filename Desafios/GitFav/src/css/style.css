@@ -113,11 +113,9 @@ input::placeholder {
 table {
   position: relative;
   border-collapse: collapse;
+  width: 100%;
 
-  border-radius: 12px;
-  border: 1px solid #4A808C;
 }
-
 
 table * {
   font-size: 2rem;
@@ -125,11 +123,13 @@ table * {
 }
 
 
-table th {
+thead {
   background-color: var(--thead-background);
   text-align: left;
   font-weight: normal;
   padding: 1.6rem 4rem;
+
+  border-radius: 12px 12px 0 0;
 }
 
 table th:first-child {
@@ -139,42 +139,59 @@ table th:last-child {
   border-top-right-radius: 0.5rem;
 }
 
-table tr:nth-child(odd) {
+tbody tr:nth-child(odd) {
   background: rgba(6, 22, 27, 0.5);
 }
 
-table tr:nth-child(even) {
+tbody tr:nth-child(even) {
   background-color: rgba(74, 128, 140, 1);
 }
 
+
+thead, tbody{
+  display: block;
+}
+
+
 tbody {
+  max-height: 49rem;
   overflow-y: auto;
-  scroll-behavior: smooth;
+  overflow-x: hidden;
+  border-radius: 0 0 12px 12px;
 }
 
-tbody::-webkit-scrollbar{
-  width: 6px;
-  height: 20px;
-}
-tbody::-webkit-scrollbar-track{
-  background-color: var(--bg-input);
-}
-tbody::-webkit-scrollbar-thumb{
-  border-radius: 2rem;
-  background-color: rgb(11, 152, 184);
-  border: 3px solid rgb(11, 152, 184);
+tr {
+  width: 100%;
 }
 
+th, td {
+  width: 22.5rem;
+  text-align: left;
+  overflow: hidden;
+}
 
-tbody td {
-  padding: 1.5rem 4rem;
+td {
+  padding: 2.4rem 4rem;
+
+}
+
+th:first-child,
+td:first-child
+{
+  width: clamp(25rem,5rem + 30vw,50rem);
   text-align: left;
 }
 
+th:last-child {
+  width: clamp(10rem,1rem + 10vw,15rem);
+}
+
+td:last-child{
+  width: 22.2rem;
+}
 
 td.user {
   display: flex;
-  align-items: center;
   gap: 1rem;
 }
 
@@ -193,6 +210,14 @@ td.user img {
   border-radius: 50%;
 }
 
+
+p{
+  white-space: nowrap;
+  width: clamp(12rem,2.5rem + 15vw,25rem);
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .remove {
     border: none;
     background: transparent;
@@ -200,16 +225,53 @@ td.user img {
 }
 
 .bg-table {
-  z-index: -1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
-  position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  height: 68.8rem;
+  max-width: 112rem;
+  background-color: transparent;
+
+  border-radius: 12px;
+  border: 1px solid #4A808C;
+  overflow: hidden;
 }
+
+
+.cont {
+ position: absolute;
+ transform: translate(-50%, -50%);
+ top: 50%;
+ left: 50%;
+
+ 
+ display: flex;
+ align-items: center;
+ gap: 1rem;
+
+}
+
+
+tbody::-webkit-scrollbar{
+  width: 6px;
+  height: 6px;
+}
+tbody::-webkit-scrollbar:hover {
+  width: 10px;
+  height: 10px;
+}
+
+tbody::-webkit-scrollbar-track{
+  background-color: var(--bg-input);
+}
+tbody::-webkit-scrollbar-thumb{
+  border-radius: 2rem;
+  background-color: rgb(11, 152, 184);
+  border: 3px solid rgb(11, 152, 184);
+}
+tbody::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(14, 183, 224);
+  border: 3px solid rgb(14, 183, 224);
+}
+
 
 @media screen and (max-width:1028px){
   #app {
@@ -225,4 +287,7 @@ td.user img {
   .search button {
     width: 20rem;
   }
+
+
+  
 }

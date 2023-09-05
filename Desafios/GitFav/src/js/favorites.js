@@ -68,6 +68,24 @@ export class FavoritesView extends Favorites {
     });
   }
 
+  emptySearch(){
+    const cont = document.querySelector(".cont");
+    const isEmpty = this.entries.length === 0
+
+    if (isEmpty){
+      cont.classList.remove('sr-only')
+      document.querySelector(".bg-table").style.border = "1px solid #4A808C"
+      document.querySelector(".bg-table").style.borderRadius = "12px"
+      document.querySelector(".border").style.border = "none"
+    } else {
+      cont.classList.add('sr-only')
+      document.querySelector(".bg-table").style.border = "none"
+      document.querySelector(".border").style.border = "1px solid #4A808C"
+      document.querySelector(".border").style.borderRadius = "12px"
+    }
+
+  }
+
   update() {
     this.removeAlltr();
 
@@ -91,6 +109,7 @@ export class FavoritesView extends Favorites {
         }
       };
       this.tbody.append(row);
+      this.emptySearch()
     });
   }
 
@@ -116,6 +135,7 @@ export class FavoritesView extends Favorites {
   removeAlltr() {
     this.tbody.querySelectorAll("tr").forEach((tr) => {
       tr.remove();
+      this.emptySearch()
     });
   }
 }
